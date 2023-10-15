@@ -1,0 +1,53 @@
+.status {
+  display: flex;
+  background-color: #1e2c69;
+  width: 300px;
+  height: 170px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  color: azure;
+  // color: var(--aboba);
+  // font-weight: 500;
+  font-size: 25px;
+  flex-direction: column;
+  font-family: var(--font-raleway);
+  .logo {
+    width: 120px;
+    height: 40px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .box {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    .document {
+      width: 20px;
+      height: 18px;
+      margin-left: 20px;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: hsl(229, 57%, 11%);
+    }
+    .iconFolder {
+        width: 20px;
+        height: 18px;
+        margin-left: 20px;
+        padding: 10px;
+        border-radius: 6px;
+        background-color: hsl(229, 57%, 11%);
+    }
+    .iconUpload {
+        width: 20px;
+        height: 18px;
+        margin-left: 20px;
+        padding: 10px;
+        border-radius: 6px;
+        background-color: hsl(229, 57%, 11%);
+    }
+  }
+}
